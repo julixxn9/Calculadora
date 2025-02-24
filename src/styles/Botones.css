@@ -1,0 +1,49 @@
+button {
+    width: 100%;
+    height: 100%;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 2vh;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    margin: 0.5vh 1vh;
+    font-size: 3vh;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.operador {
+    background-color: #d9534f;
+}
+
+.operador:hover {
+    background-color: #c9302c;
+}
+
+.operador:active {
+    transform: scale(0.9);
+}
+
+.borrador {
+    background-color: #5bc0de;
+}
+
+.borrador:hover {
+    background-color: #31b0d5;
+}
+
+.borrador:active {
+    transform: scale(0.9);
+}
